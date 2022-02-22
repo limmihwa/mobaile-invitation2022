@@ -5,8 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>제훈이의첫번째 생일에 초대합니다</title>
-
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500&family=Yeon+Sung&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./main.js"></script>
 </head>
 <body>
     <section id="title">
@@ -26,6 +28,103 @@
     </div>
     </div>
     </section>
+    <section id="invitation">
+        <div class="bar">
+        </div>
+        <h2>첫번째 생일을 <br>
+            같이 축하해주세요</h2>
+            <p>품에 보듬어 안기도 조심스러웠는데<br>
+                어느덧 건강하게 자라 <br>
+                첫 생일을 맞이 하였습니다.</p>
+            <p>이렇게 이쁘고 건강하게 자라준것은 <br>
+                항항 관심과 사랑으로 지켜주신<br> 
+                    여러분의 사랑이라고 생각합니다.
+            </p>
+            <p>조촐하지만 정성어린 자리를
+                마련하였으니 기쁜마음으로
+                꼭 참석하시어 <br> 제훈이의 
+                앞날을 축복 해주세요.</p>
+        <div class="send-msg-box">
+            <a class="send-btn" href="tel:010-0000-1235">
+                <i><img src="./images/mom.svg" alt="엄마에게 전화하기"></i>
+                <span>이현아</span>
+            </a>
+            <a class="send-btn" href="tel:010-0000-1234">
+                <i><img src="./images/dad.svg" alt="아빠에게 전화하기"></i>
+                <span>강재현</span>
+            </a>
+        </div>
+    </section>
+    <!--갤러리 영역-->
+    <section id="gallrey">
+        <div class="bar"></div>
+        <h2>포토 갤러리</h2>
+        <figure>
+        <div class="main-photo">
+            <img src="./images/baby.jpg" alt="main-photo">
+        </div>
+        <ul class="img-list">
+            <li><a href="#gallrey"><img src="./images/baby.jpg" alt="photo"></a></li>
+            <li><a href="#gallrey"><img src="./images/baby1jpg.jpg" alt="photo"></a></li>
+            <li><a href="#gallrey"><img src="./images/baby2.jpg" alt="photo"></a></li>
+            <li><a href="#gallrey"><img src="./images/baby4.jpg" alt="photo"></a></li>
 
+        </ul>
+    </figure>
+    </section>
+    <!--오시는길 -->
+    <section id="location">
+        <div class="bar"></div>
+        <h2>오시는 길</h2>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d789.8044841911408!2d126.66814682030599!3d37.64408005371102!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357c86c42ce1f9fb%3A0xfa1e0d1aade2f670!2z7JeU7KCk7Iqk642w7J20!5e0!3m2!1sko!2skr!4v1645145816701!5m2!1sko!2skr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <p>김포 장기동 1610 신한프라자 12층 <br>
+            TEL 080 .0000. 1234
+        </p>
+    </section>
+    <!--축하해주기-->
+    <section id="congrat">
+        <div class="bar"></div>
+        <h2>축하해주기</h2>
+        <div class="contact-box-wrap">
+        <div class="contact-box">
+            <div class="icon-box">
+                <img src="./images/bi_telephone-fill.svg" alt="tel">
+                <a href="tel:010-0000-1234"></a>
+                <img src="./images/uiw_mail.svg" alt="sms">
+                <a href="sms:010-0000-1234"></a>
+            </div>
+            <span>엄마에게 연락하기</span>
+        </div>
+        <div class="contact-box">
+            <div class="icon-box">
+                <img src="./images/bi_telephone-fill.svg" alt="tel">
+                <a href="tel:010-0000-5678"></a>
+                <img src="./images/uiw_mail.svg" alt="sms">
+                <a href="sms:010-0000-5678"></a>
+            </div>
+            <span>아빠에게 연락하기</span>
+        </div>
+    </div>
+    <div class="sns-group">
+        <a class="icon-link">
+            <img src="./images/카톡.svg" alt="kakao">
+            <div>카카오톡</div>
+        </a>
+        <a class="icon-link">
+            <img src="./images/instagram.svg" alt="instagram">
+            <div>인스타그램</div>
+        </a>
+        <a class="icon-link">
+            <img src="./images/youtube.svg" alt="youtube">
+            <div>유투브</div>
+        </a>
+    </div>
+    </section>
+    <!--스플래쉬 스크린-->
+    <div class="splash-screen on">
+        <img src="./images/logo .2.gif" alt="제훈이의 첫번째 생일">
+    </div>
 </body>
 </html>
